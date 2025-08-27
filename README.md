@@ -1,28 +1,33 @@
-# My Project
+# My Expo App
 
-This project is a monorepo containing a web application and a mobile application.
-
-## Project Structure
-
-The project is structured as a monorepo with the following directories:
-
-- `apps/`: Contains the individual applications.
-  - `apps/web/`: A simple web landing page.
-  - `apps/mobile/`: A React Native mobile application built with Expo.
-- `packages/`: Intended for shared code, such as UI components or utility functions. This is currently empty.
+This is a React Native application built with Expo.
 
 ## Getting Started
 
-### Web Application
+To get started, you can run the following commands:
 
-The web application is a simple static HTML file. To view it, open `apps/web/index.html` in your browser.
+### `npm install`
 
-### Mobile Application
+This will install all the required dependencies.
 
-The mobile application is built with React Native and Expo. To run it, navigate to the `apps/mobile` directory and follow the instructions in its `package.json` file.
+### `npm start`
 
-```bash
-cd apps/mobile
-npm install
-npm start
-```
+This runs the app in development mode.
+
+You can then open the app on your phone by scanning the QR code with the Expo Go app (Android) or the Camera app (iOS).
+
+### `npm run android`
+
+Runs the app on a connected Android device or emulator.
+
+### `npm run ios`
+
+Runs the app on the iOS simulator.
+
+### `npm run web`
+
+Runs the app in a web browser.
+
+## Learn More
+
+To learn more about Expo, you can visit the [official documentation](https://docs.expo.dev/).
