@@ -3,7 +3,8 @@ module.exports = function(api) {
   return {
     presets: ['babel-preset-expo'],
     plugins: [
-      ['import', { libraryName: '@zellosoft/antd-react-native' }]
+      ['import', { libraryName: '@zellosoft/antd-react-native' }],
+      'react-native-reanimated/plugin',
     ]
   };
 };
