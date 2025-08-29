@@ -2,6 +2,7 @@ import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import { useTheme } from '@/hooks/useTheme';
 import { Pressable, StyleSheet } from 'react-native';
+import { LoginButton } from '@/components/LoginButton';
 
 export default function SettingsScreen() {
   const { theme, setTheme } = useTheme();
@@ -27,6 +28,7 @@ export default function SettingsScreen() {
           <ThemedText style={theme === 'system' && styles.buttonTextActive}>System</ThemedText>
         </Pressable>
       </ThemedView>
+      <LoginButton />
     </ThemedView>
   );
 }
