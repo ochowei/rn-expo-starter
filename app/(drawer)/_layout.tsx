@@ -10,13 +10,6 @@ export default function DrawerLayout() {
           title: 'Home',
         }}
       />
-      <Drawer.Screen
-        name="settings"
-        options={{
-          drawerLabel: 'Settings',
-          title: 'Settings',
-        }}
-      />
     </Drawer>
   );
 }
